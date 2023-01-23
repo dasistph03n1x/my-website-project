@@ -1,0 +1,253 @@
+.container{
+    display: block;
+    padding: 1%;
+    border: 10px;
+    font-size: 20px;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+a:active {
+    text-decoration: none;
+}
+
+.standartMode{
+    background-image: url("img/container_standart.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 110px;
+    background-color: #880000;
+    font-family: "Montserrat",sans-serif;
+    color: white;
+    transition: 500ms;
+    border-radius: 100px;
+    padding: 15px;
+}
+
+.darkMode{
+    background-position-y: 110px;
+    background-image: url("img/container_dark.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    font-family: "Montserrat",sans-serif;
+    color: silver;
+    transition: 500ms ;
+    border-radius: 15px;
+    padding: 15px;
+}
+.tus{
+    background-image: url("img/dark_mode_button.png");
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.toolkit{
+    padding: 10px;
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+
+}
+
+.tus2 {
+    background-image: url("img/light_mode_button.png");
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.icon_Ig{
+    background-image: url("img/instastandart.png");
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.icon_Li{
+    background-image: url("img/linkedinstandart.png");
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.darkicon_Ig{
+    background-image: url("img/instadark.png");
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.darkicon_Li{
+    background-image: url("img/linkedindark.png");
+    background-size: cover;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+.navbar{
+    background: #880000;
+    overflow: auto;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    transition: 500ms;
+}
+.navbar_dark{
+    background: black;
+    overflow: auto;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    transition: 500ms;
+}
+
+.home_standart{
+    background-image: url("img/home_standart.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.home_dark{
+    background-image: url("img/home_dark.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+    margin-left: auto;
+}
+
+.icon_Sp{
+    background-image: url("img/spotify_standart.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.darkicon_Sp{
+    background-image: url("img/spotify_dark.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.about_standart{
+    background-image: url("img/about_standart.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.about_dark {
+    background-image: url("img/about_dark.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.contact_standart{
+    background-image: url("img/contact_standart.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.contact_dark {
+    background-image: url("img/contact_dark.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.icon_Cv{
+    background-image: url("img/cv_standart.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
+
+.darkicon_Cv{
+    background-image: url("img/cv_dark.png");
+    background-position: center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    display: block;
+    transition: 500ms;
+    margin-right: 20px;
+}
